@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main () {
+    
 char jugador_numero1=0;
 char tablero [3][3] = {{'-','-','-'},{'-','-','-'},{'-','-','-'}};
 for (int i=0;i<3;i++){ printf ("\n");

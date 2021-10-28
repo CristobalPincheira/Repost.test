@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main () {
+  //
   char jugador_numero1= 0;
   char tablero [6][7];
   int columna=0;
