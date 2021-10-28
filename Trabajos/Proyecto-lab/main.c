@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
 int main () {
   char jugador_numero1= 0;
-
-
+  char tablero [6][7];
+  int columna=0;
+ 
 printf ("-------------------");
 printf ("-------------------");
 printf ("-------------------");
@@ -11,20 +13,33 @@ printf ("-------------------");
 printf ("-------------------");
 printf ("-------------------");
 
-printf ("quien inicia el juego, A (amarillo) o R (rojo)\n");
-scanf ("%c", &jugador_numero1);
-
-switch (jugador_numero1){
- case 'A': printf ("jugador_numero1: %c\n", jugador_numero1);
-           printf ("comienza el jugador amarillo\n");
-  break;
- case 'R':printf ("jugador_numero1: %c\n", jugador_numero1);
-          printf ("comienza el jugador rojo\n");
-  break;
-default: printf ("la opcion ingresada no es válida\n");
-
-
+ for (int i= 0; i<6; i++){
+   for (int j=0; j<7; j++){
+   tablero[i][j]='O';
+   printf ("%c", tablero[i][j]);
+   }
+    printf ("\n");
+  }
+printf ("por favor ingrese columna de jugada\n");
+scanf ("%i",&columna);
+while ((columna<1) || (columna>7)){
+printf ("Jugada no validada, por favor ingresar jugada nuevamente");
+scanf ("%i",&columna);
 }
+
+tablero[5] [columna-1] = 'A';
+system ("cls");
+
+ for (int i= 0; i<6; i++){
+   for (int j=0; j<7; j++){
+   printf ("%c", tablero[i][j]);
+   }
+    printf ("\n");
+}
+
+
+
+
 
 
 
