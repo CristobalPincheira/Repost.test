@@ -77,6 +77,9 @@ se cerrará el programa.
 
 ##Información del desarrollador:
 Los desarrolladores de este código son estudiantes de la Universidad de la Frontera de Temuco 
+contacto de Cristóbal Pincheira: +569 20182126
+Contacto de Andrés Cerda: +569 49415177
+
 
 
 ##Agradecimientos:
