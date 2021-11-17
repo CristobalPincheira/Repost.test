@@ -1,5 +1,7 @@
 #include <stdio.h>
 int main () {
+
+
     
 char jugador_numero1=0;
 char tablero [3][3] = {{'-','-','-'},{'-','-','-'},{'-','-','-'}};
@@ -87,6 +89,7 @@ if (('X'== tablero[0][0]&& tablero[0][0]==tablero[0][1]&& tablero[0][1]==tablero
 ('X'== tablero[2][0]&& tablero[2][0]==tablero[1][1]&& tablero[1][1]==tablero[0][2])
 ){
 printf ("felicidades jugador X ha ganado\n");
+
 
 }else{
 printf ("Jugador O es su turno" ); //6 turno

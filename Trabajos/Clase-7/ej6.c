@@ -1,5 +1,5 @@
 #include <stdio.h>
-main () {
+int main () {
 int numero = 0;
 int resultado=0;
 int numero1= 0;
